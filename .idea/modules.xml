@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../bbzf-spider/58house/.idea/58house.iml" filepath="$PROJECT_DIR$/../bbzf-spider/58house/.idea/58house.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ai/.idea/ai.iml" filepath="$PROJECT_DIR$/../ai/.idea/ai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bbzf-spider/.idea/bbzf-spider.iml" filepath="$PROJECT_DIR$/../bbzf-spider/.idea/bbzf-spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cf_demo/.idea/cf_demo.iml" filepath="$PROJECT_DIR$/../cf_demo/.idea/cf_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/urllib.iml" filepath="$PROJECT_DIR$/.idea/urllib.iml" />
+    </modules>
+  </component>
+</project>
