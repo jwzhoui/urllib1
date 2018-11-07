@@ -1,5 +1,7 @@
 import redis
-import redis_test
+from isscloud import redis_test
+
+
 class RedisDBConfig:
   HOST = '10.16.117.24'
   PORT = 6379

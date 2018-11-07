@@ -1,10 +1,13 @@
-# encoding=utf-8
-#
-def we(e):
-    print e
-    e = e + 1
+# -*- coding: utf-8 -*-
 
-    # yield we(e)
+print 2**23
+print 2**23*2
+print 2**23*2
 
 
-we(0)
+
+
+
+
+
+
