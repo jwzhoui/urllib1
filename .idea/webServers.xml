@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ec5bd4a0-ce53-4c77-8503-86f6932ebdde" name="poi_server" url="http://118.178.17.53">
+        <fileTransfer host="118.178.17.53" port="22" privateKey="$USER_HOME$/.ssh/zhoujianwen" rootFolder="/data/zhoujianwen/code_poi" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
