@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-import hq.my_excepthook.test_excepthool_package.hq_excepthook
+import hq.my_excepthook.test_excepthool_package
 import threading
 import time
 import sys
@@ -12,13 +12,11 @@ from hq.my_excepthook.run_type.more_thread.except_code import Qr
 def my():
     q = Qr()
     q.start()
-    q2 = Qr()
-    q2.start()
-    q22 = Qr()
-    q22.start()
+b = time.time()
 my()
+print 'my thread time %f'% (time.time()-b)
 # print 3444444445
-time.sleep(6)
+# time.sleep(1)
 
 
 

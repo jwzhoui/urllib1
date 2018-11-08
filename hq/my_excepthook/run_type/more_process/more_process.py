@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # encoding: utf-8
+import hq.my_excepthook.test_excepthool_package
 import sys
 
 sys.path.append('/opt/space/urllib1/')
 import multiprocessing
 import time
 
-import hq.my_excepthook.test_excepthool_package.hq_excepthook
+
 def worker(interval):
     # try:
         print("work start:{0}".format(time.ctime()));
@@ -22,5 +23,5 @@ if __name__ == "__main__":
     p = multiprocessing.Process(target = worker, args = (2,))
     p.daemon = True
     p.start()
-    time.sleep(1)
+    time.sleep(11)
     print "end!"

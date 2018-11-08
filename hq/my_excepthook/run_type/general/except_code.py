@@ -4,7 +4,7 @@ import gevent
 from gevent import monkey
 import time
 monkey.patch_all()
-
+import hq.my_excepthook.test_excepthool_package.hq_excepthook
 
 class geventTest(object):
     def func1(self,a='1',b=1):

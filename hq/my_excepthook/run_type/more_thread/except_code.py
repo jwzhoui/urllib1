@@ -13,5 +13,8 @@ class Qr(threading.Thread):
         print 789
 
     def run(self):
-        time.sleep(2)
-        1/0
+        # try:
+            time.sleep(2)
+            1/0
+        # except:
+        #     print 'z主动捕获'

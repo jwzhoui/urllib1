@@ -9,9 +9,10 @@ from traceback import format_exception
 import time
 import hq.my_excepthook.test_excepthool_package.hq_excepthook
 from hq.my_excepthook.run_type.general.except_code import geventTest
-
+gevent.monkey.patch_all()
 # gevent.spawn(geventTest().func1, 'amap', 3)
 # gevent.spawn(geventTest().func1, 'amap', 2)
 gevent.spawn(geventTest().func1, 'amap', 1)
+# 4/0
 print 'end'
 time.sleep(4)
